@@ -1,0 +1,19 @@
+.component-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 200px;
+  border-radius: 20px;
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+  margin: 1rem;
+  cursor: move;
+}
+
+.react-draggable {
+  position: relative;
+}
+
+.react-draggable-dragging {
+  z-index: 10;
+}
